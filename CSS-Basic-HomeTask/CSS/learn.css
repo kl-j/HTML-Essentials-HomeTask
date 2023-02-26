@@ -1,0 +1,75 @@
+.photo{
+    position: absolute;
+    width: 1200px;
+    height: 666px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+    background: rgba(140, 79, 42, 0.3);
+    background-image:
+    url(../Assets/IMG_1334_72dpi_RGB_1.png);
+}
+
+.h1learn
+{
+    position: absolute;
+width: 480px;
+height: 117px;
+left: 360px;
+top: 84px;
+
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.bttplay {
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 525px;
+    top: 254px;
+    border-radius: 50%;
+    font-size: 70px;
+    color: #FFFFFF;
+    border-color: #39c2d7;
+    background: #39C2D7;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h3learn {
+    position: absolute;
+width: 390px;
+height: 102px;
+left: 395px;
+top: 474px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+

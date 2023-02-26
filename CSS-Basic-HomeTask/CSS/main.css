@@ -1,0 +1,89 @@
+
+
+.rectangle6 {
+  position: absolute;
+  width: 1200px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0px;
+  top: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEEEEE;
+}
+
+
+  .h1main {
+    position: absolute;
+    width: 669px;
+    height: 118px;
+    left: 265px;
+    top: 87px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    text-align: center;
+
+color: #464547;
+
+  }
+
+  .h3main {
+
+    position: absolute;
+    width: 426px;
+    height: 56px;
+    left: 387px;
+    top: 246px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+/* or 133% */
+    text-align: center;
+
+color: #666666;
+
+  }
+
+  .pmain {
+    position: absolute;
+width: 983px;
+height: 194px;
+left: 97px;
+top: 351px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+text-align: center;
+
+color: #000000;
+  }
+
+
+  .bttread {
+    position: absolute;
+width: 115px;
+height: 36px;
+left: 542px;
+top: 571px;
+background: #55C2D8;
+border-radius: 18px;
+border-color: #55C2D8;
+color: #EEEEEE;
+  }
+
+
