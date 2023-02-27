@@ -1,0 +1,158 @@
+/*Background*/
+.backgroundHeader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/Desktop_Backgrounds_1920x1200_6_3.png);
+}
+
+.rectangle{
+    position: absolute;
+    top: 625px;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    margin-left: 0%;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-image:
+    url(../assets/Rectangle.png);
+}
+
+.bodyBackground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    top: 1270px;
+    align-items: center;
+    justify-content: center;
+    background-image:
+    url(../assets/IMG_1334_72dpi_RGB_1.png);
+    opacity: 0.8;
+}
+
+/*Images*/
+.logoHeader{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+    top: 35%;
+    background-image:
+    url(../assets/Logo_big.png);
+}
+
+.logoLittle{
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-image:
+    url(../assets/Logo_little.png);
+}
+
+.secondWindow{
+    position: absolute;
+    top: 1030px;
+}
+
+.footer {
+    position: absolute;
+    top: 2000px;
+    /*2118px;*/
+    width: 100%;
+    left: 0%;
+    background: #464547;
+    justify-content: left;
+    background-size: cover;
+    text-align: left;
+    background-size: cover;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .backgroundHeader{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: absolute;
+        bottom: 100px;
+        left: 0px;
+        right: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../assets/Desktop_Backgrounds_1920x1200_6_3.png);
+    }
+
+    .rectangle{
+        position: absolute;
+        top: 625px;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        margin-left: 0%;
+        justify-content: center;
+        background-size: cover;
+        text-align: center;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-image:
+        url(../assets/Rectangle.png);
+    }
+
+    .bodyBackground{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        top: 1300px;
+        align-items: center;
+        justify-content: center;
+        background-image:
+        url(../assets/IMG_1334_72dpi_RGB_1.png);
+        opacity: 0.8;
+    }
+
+    .footer {
+        position: absolute;
+        top: 2000px;
+        /*2118px;*/
+        width: 100%;
+        left: 0%;
+        background: #464547;
+        justify-content: left;
+        background-size: cover;
+        text-align: left;
+        background-size: cover;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+

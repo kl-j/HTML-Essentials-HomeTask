@@ -1,0 +1,258 @@
+/*Main menu design*/
+.menuProject {
+    /* PROJECT */
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: 152px;
+    top: 55px;
+    z-index: 1;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* identical to box height, or 80% */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+  }
+  
+  .menuProjects{
+    /* PROJECTS */
+    position: relative;
+    width: 100px;
+    height: 16px;
+    left: 400px;
+    top: 46px;
+    z-index: 1;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height, or 114% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+  }
+  
+  
+  .menuAboutUs{
+    /* ABOUT US */
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 600px;
+    top: 63px;
+    z-index: 1;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+  }
+  
+  .menuStories{
+    /* STORIES */
+    position: absolute;
+    width: 67px;
+    height: 16px;
+    left: 780px;
+    top: 63px;
+    z-index: 1;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+  }
+
+  .menuContact{
+    /* CONTACT */
+    position: absolute;
+    width: 73px;
+    height: 16px;
+    left: 930px;
+    top: 63px;
+    z-index: 1;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+  }
+
+  /*Body Two columns layout*/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .column{
+    flex-basis: 25%;
+  }
+
+  /*Footer three columns layout*/
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footerColumn {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+  .menuLine1{
+    /* Line 1 */
+    z-index: -1;
+  }
+  .menuLine2{
+    /* Line 2 */
+    z-index: -1;
+  }
+  .menuLine3{
+    /* Line 3 */
+    z-index: -1;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .menuProject {
+      /* PROJECT */
+      position: absolute;
+      width: 91px;
+      height: 16px;
+      left: 50px;
+      top: 35px;
+      z-index: 1;
+  
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 16px;
+      /* identical to box height, or 80% */
+  
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+  
+      color: #FFFFFF;
+    }
+
+    footer {
+      display: block;
+    }
+    
+    .footerColumn {
+      flex: 3;
+      margin: 0 10px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .column{
+      flex: 1;
+    }
+
+      
+    .menuLine1{
+      /* Line 1 */
+      position: absolute;
+      width: 40px;
+      height: 0px;
+      left: 370px;
+      top: 41px;
+      z-index: 1;
+
+      border: 2px solid #FFFFFF;
+    }
+    .menuLine2{
+      /* Line 2 */
+      position: absolute;
+      width: 40px;
+      height: 0px;
+      left: 370px;
+      top: 33px;
+      z-index: 1;
+
+      border: 2px solid #FFFFFF;
+    }
+    .menuLine3{
+      /* Line 3 */
+      position: absolute;
+      width: 40px;
+      height: 0px;
+      left: 370px;
+      top: 25px;
+      z-index: 1;
+
+      border: 2px solid #FFFFFF;
+    }
+
+    .menuProjects{
+      /* PROJECTS */
+      z-index: -1;
+
+    }
+    
+    
+    .menuAboutUs{
+      /* ABOUT US */
+      z-index: -1;
+
+    }
+    
+    .menuStories{
+      /* STORIES */
+      z-index: -1;
+    }
+
+    .menuContact{
+      /* CONTACT */
+      z-index: -1;
+    }
+    }
+  

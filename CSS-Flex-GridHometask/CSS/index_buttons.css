@@ -1,0 +1,42 @@
+.textButton{
+    font-family: 'Oswald Regular';
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.buttonPlay{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:  #39C2D7;
+    color: #FFFFFF;
+    font-size: 75px;
+    line-height: 50px;
+    border: 2px solid #55C2D8;
+}
+
+.buttonReadMore{
+
+    margin: 10px auto;
+    background: #55C2D8;
+    border-radius: 18px;
+    border: 2px solid #55C2D8;
+}
+
+@media screen and (max-width: 768px) {
+    .buttonReadMore{
+
+        margin: 10px 20px;
+        background: #55C2D8;
+        border-radius: 18px;
+        border: 2px solid #55C2D8;
+        float: left;
+    }
+}
+
