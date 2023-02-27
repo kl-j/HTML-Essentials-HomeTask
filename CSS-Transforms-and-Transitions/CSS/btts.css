@@ -1,0 +1,86 @@
+.textButton{
+    font-family: 'Oswald Regular';
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.playButton{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:  #39C2D7;
+    color: #FFFFFF;
+    font-size: 75px;
+    line-height: 50px;
+    border: 2px solid #55C2D8;
+    animation: colorPlay 1s ease-in-out forwards;
+}
+
+.playButton:hover{
+    animation: colorPlayBack  1s ease-in-out forwards;
+    background-color: #FFFFFF;
+    color: #39C2D7;
+    border: 2px solid #FFFFFF;
+}
+
+
+.detailsButton{
+    margin: 10px auto;
+    background: #55C2D8;
+    border-radius: 18px;
+    border: 2px solid #55C2D8;
+    animation: downButton 1s linear both;
+}
+
+.detailsButton:hover{
+    animation: downButtonBack 1s linear both;
+}
+
+@media screen and (max-width: 768px) {
+    .detailsButton{
+
+        margin: 10px 20px;
+        background: #55C2D8;
+        border-radius: 18px;
+        border: 2px solid #55C2D8;
+        float: left;
+    }
+}
+
+@keyframes downButton {
+    from {
+        transform-origin: left bottom;
+        transform: rotate(10deg);
+    }
+    to {
+        transform-origin: left bottom;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes downButtonBack {
+    from {
+        transform-origin: left bottom;
+        transform: rotate(0deg);
+    }
+    to {
+        transform-origin: left bottom;
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes colorPlay {
+    to{transform: scale(1.2)};
+}
+
+@keyframes colorPlayBack {
+    from{transform: scale(1.2)};
+    to{transform: scale(.9)};
+}
+
